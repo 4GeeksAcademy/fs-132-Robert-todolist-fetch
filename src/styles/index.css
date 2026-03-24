@@ -9,3 +9,20 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* estilo de las tareas */
+.task-text {
+    flex: 1;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    word-break: break-word;
+}
+
+.task-text:hover {
+    color: blue;
+    text-decoration: underline;
+}
+/* tarea completada */
+.task-completed {
+    text-decoration: line-through;
+    color: grey;
+}
